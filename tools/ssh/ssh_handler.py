@@ -316,7 +316,7 @@ class SSHCommands(SSHConnect):
     def __init__(self):
         super().__init__()
 
-    def execute_command(self, command, parse):
+    def execute_command(self, command):
         """
         execute_command Function:
 
